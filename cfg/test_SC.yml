@@ -1,0 +1,25 @@
+CONFIG_NAME: 'test-cgan-pixel_cpst'
+
+DATASET_NAME: 'vip'
+DATA_DIR: 'E:/samsung/datasets/GEN/vip'
+MODEL_DIR: 'E:/pkuproject/modelsets/vip'
+PRETRAINED_DIR: 'E:/samsung/pretrained/vip'
+CKPT: 'E:/samsung/pretrained/vip/ckpt_ep_038_fid_best.pth'
+WORKERS: 1
+
+TREE:
+    BRANCH_NUM: 3
+
+TRAIN:
+    FLAG: False
+    NET_LE: 'label_encoder35.pth'
+    NET_IE: 'image_encoder35.pth'
+
+TEST:
+    UNI_BATCH_SIZE: 3
+    PRINT_INTERVAL: 100
+
+GAN:
+    DF_DIM: 64
+    GF_DIM: 32
+    Z_DIM: 100
