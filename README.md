@@ -5,7 +5,9 @@ This is the author's unofficial PyTorch MISC implementation.
 
 We present MISC (Multi-condition Injection and Spatially-adaptive Compositing), an end-to-end trainable deep neural network for conditional person image synthesis. MISC includes a conditional person generation model and a spatially-adaptive image composition model.
 
-![](https://github.com/shuchenweng/MISC/blob/main/setting.pdf)
+![](https://github.com/shuchenweng/MISC/blob/main/setting.png)
+
+Given attribute (color condition), segmentation mask (geometry condition), Gaussian noise (texture condition), and background image, our model could generate the specified person in user-designated image position.
 
 ## Prerequisites
 * Python 3.6
@@ -40,10 +42,9 @@ These directory parameters could be found in cfg/test_SC.yml and cfg/train_SC.ym
 ```
 python main.py --cfg train_SC.yml
 ```
-
 ### 2) Testing
 ```
-python main.py --cfg train_SC.yml
+python main.py --cfg test_SC.yml
 ```
 
 ## License
