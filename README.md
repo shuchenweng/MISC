@@ -30,7 +30,7 @@ We process the [VIP person parsing](https://github.com/HCPLab-SYSU/ATEN.git) dat
 ## Getting Started
 Download the [proccessed VIP dataset](https://drive.google.com/file/d/13to7_krxUlW6bYiA2EojhsxJ5wGnF40s/view?usp=sharing) and copy them under DATA_DIR.
 
-Download the [pre-trained weights](google_driver) and copy them under PRETRAINED_DIR. 
+Download the [pre-trained weights](https://drive.google.com/drive/folders/1irNyIJbuPBOf03Fa1QDCw7Hocxn3djeq?usp=sharing) and copy them under PRETRAINED_DIR. 
 
 Setting the MODEL_DIR as the storage directory for generated experimental results.
 
