@@ -28,7 +28,7 @@ Install other python requirements
 We process the [VIP person parsing](https://github.com/HCPLab-SYSU/ATEN.git) dataset for evaluation. We annotate persons in VIP with 120 attribute classes, and crop the images in VIP to keep one major person in each image. We create the training and test splits, with 42K and 6K images, respectively.
 
 ## Getting Started
-Download the [proccessed VIP dataset](google_driver) and copy them under DATA_DIR.
+Download the [proccessed VIP dataset](https://drive.google.com/file/d/13to7_krxUlW6bYiA2EojhsxJ5wGnF40s/view?usp=sharing) and copy them under DATA_DIR.
 
 Download the [pre-trained encoders](google_driver) and copy them under PRETRAINED_DIR. 
 
